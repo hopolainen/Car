@@ -22,7 +22,7 @@ public class PuuMain {
 //		
 		
 		
-		Puu puu3 = new Puu(100,"Paju");
+		Puu puu3 = new Puu(200,"Paju");
 		//ei enää toimi, koska asetettu private:ksi
 		//puu3.ika = -100;
 		puu3.kasva();
@@ -34,13 +34,13 @@ public class PuuMain {
 
 		//puu3.tulostaTiedot();
 
-		if (puu3.getIka()>100)
+		if (puu3.getIka()>200)
 		{
-			System.out.println("Yli 100 vuotta vanha puu");
+			System.out.println("Yli 200 vuotta vanha puu");
 		}
 		else
 		{
-			System.out.println("Alle 100 vuotta vanha");
+			System.out.println("Alle 200 vuotta vanha");
 		}
 	}
 
