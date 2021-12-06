@@ -4,7 +4,7 @@ public class CarProject {
 	public static void main(String[] args) {
 
 
-		Car car = new Car("", "", 0);
+		Car car = new Car("", "", 5);
 		car.setModel("Rio");
 
 	}
@@ -27,7 +27,7 @@ class Car {
 
 				model = brandModel;
 
-				amountOfFuel = 0;
+				amountOfFuel = 5;
 				
 				printData();
 			}
