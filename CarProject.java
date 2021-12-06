@@ -79,7 +79,7 @@ class Car {
 
 			{
 
-				System.out.println("Car is accelerating");
+				System.out.println("Car is now accelerating");
 
 			}
 
