@@ -5,7 +5,7 @@ public class CarProject {
 
 
 		Car car = new Car("", "", 5);
-		car.setModel("Rio");
+		car.setModel("Ceed");
 
 	}
 }
